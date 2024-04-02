@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <!-- <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"> -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- icon css -->
+
+    <!-- css file -->
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <!-- media query file -->
+    <link rel="stylesheet" href="assests/css/mediaquery.css">
+
+
+    <link rel="stylesheet" href="./assets/css/cart.css">
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/987323a4bc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section>
+        <div class="container mt-2 py-3">
+            <div class="typewriter-effect">
+                <i class="fa-solid fa-sun h3"></i>&nbsp;
+            <h3 id="typewriter-text" class="text-center  header text" style="color: #31363F !important;"> Weather App</h3>
+            </div>
+           
+            <div class="text-center">
+                <input class="mt-5 search py-2 text-center" type="text" id="city_data" placeholder="city" name="text" class="w-100" spellcheck="false">  <i class="fa-solid fa-magnifying-glass sbtn ps-3 " onclick="weather_api()"></i>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 weather_info">
+        <div class="container bg-dark">
+            <div class="weather pt-5 pb-1">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="" class="weatherImg img-fluid mt-2" alt="">
+                    </div>
+                    
+                    </div>
+                    <div class="col py-4">
+                        <h5 class="text-center city"></h5>
+                        <h1 class="text-center my-3 temperature"></h1>
+                    </div>
+                <div class="row text-center pb-4">
+                    <div class="col-6">
+                        <img src="./assests/images/wind.png" class="w_logo1">
+                        <div class="">
+                            <p class="wind pt-4"></p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="./assests/images/humidity.png" class=" w_logo">
+                        <div class="">
+                            <p class="humid pt-4"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="container error">
+            <div class=" d-flex align-items-center justify-content-center me-5">
+                <span class="error_msg" onclick="alert()">Enter valid city name*</span>  
+            </div>
+        </div>
+    </section>
+    <section class="designer">
+        <div class="text-center mt-2 px-3 fs-5 foot">Made by Karan <span style="color: red;">❤</span></div>
+    </section>
+    <!-- ------------ scrop bottom to top ------  -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <script src="assests/aos/js/aos.js"></script>
+    <script src="assests/js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@nicesapien0/typewriter.js/typewriter.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        typewriterConfig = ["Weather App", true]
+  
+        typewriter();
+    </script>
+</body>
+
+</html>

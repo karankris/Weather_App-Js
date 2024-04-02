@@ -1,0 +1,319 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .xl-visible {
+        border-right: 1px solid #000; /* Add your border styles here */
+        border-right-color: #dee2e6;
+    }
+    .xl-border {
+        border: 1px solid #dee2e6;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 1200px) and (min-width: 992px) {
+     /* ---------------------------INDEX CSS---------------------- */
+     
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -44%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 35%;
+    }
+    .owl-theme .owl-dots {
+      
+        right: 2%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media (max-width: 992px) and (min-width: 819px)  {
+
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 600px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 420px;
+        width: 420px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 68px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -43%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 38%;
+    }
+    .owl-theme .owl-dots {
+      
+        right: 2%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+
+    .xl-visible {
+        border-right: none; 
+    }
+    .xl-border {
+        border: none;
+    }
+
+
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 700px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 500px;
+        width: 500px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 73px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -43%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 38%;
+    }
+    .owl-theme .owl-dots {
+        right: 1%;
+    }
+    .right_bottom_btn .tooltiptext {
+        left: -87%;
+    }
+    .right_top_btn .tooltiptext {
+        left: -31%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+    .xl-visible {
+        border-right: none;
+    }
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 600px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 450px;
+        width: 450px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 53px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -42%;
+        bottom: -0.4%;
+        transform: scale(1.1);
+    }
+    .hero2_center_text {
+        left: 37%;
+    }
+    #order_now .groceries_delivery_box{
+        background-image:none;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-color: #f1f2f8;
+    }
+    #deals_day .zero_box {
+        height: 38px;
+        width: 38px;
+     
+        font-size: 18px;
+        
+    }
+    .groceries_delivery_box{
+        height: 550px;
+    }
+    .groceries_round_img_box{
+        top: 95%;
+    }
+    .groceries_title{
+        font-size: 27px;
+    }
+    .tooltip2 .tooltiptext {
+        visibility: hidden;
+        width: 240px;
+    }
+    .right_bottom_btn .tooltiptext {
+        left: -195%;
+    }
+    .right_top_btn .tooltiptext {
+       
+        left: -158%;
+    }
+    .middle_right_btn .tooltiptext {
+       
+        left: -59%;
+    }
+    .left_middle_btn .tooltip2 .tooltiptext {
+        left: 62%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     /* ---------------------------INDEX CSS---------------------- */
+     .hero_img {
+        height: 559px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 400px;
+        width: 400px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 40px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -40%;
+        bottom: -0.4%;
+        transform: scale(1.1);
+    }
+    .hero2_center_text {
+        left: 40%;
+    }
+    #shopin-season .top_left_btn {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        height: 33px;
+        font-size: 12px;
+    }
+    #shopin-season .left_middle_btn , #shopin-season .middle_left_btn , #shopin-season .middle_right_btn , #shopin-season .right_top_btn , #shopin-season .right_bottom_btn {
+        height: 33px;
+        font-size: 12px;
+    }
+    #shopin-season .left_middle_btn {
+        top: 72%;
+    }
+    #shopin-season .middle_left_btn {
+        left: 16%;
+    }
+    #shopin-season .right_top_btn {
+        top: 21%;
+        right: 10%;
+    }
+    #shopin-season .right_bottom_btn {
+        top: 75%;
+        right: 6%;
+    }
+    #staticBackdrop .modal-dialog {
+        max-width: 90% !important;
+    }
+    #staticBackdrop{
+        padding: 0 !important;
+    }
+    
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    /* ---------------------------INDEX CSS---------------------- */
+   
+    .bottom_white_bg {
+        right: -38%;
+        bottom: -0.4%;
+    }
+    .hero2_center_text {
+        left: 42%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+  
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 509px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 300px;
+        width: 300px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 40px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -36%;
+    }
+    .hero2_center_text {
+        left: 47%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+   
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+

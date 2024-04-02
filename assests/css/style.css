@@ -16,6 +16,9 @@ h5 {
 .weather {
   display: none;
 }
+.header{
+  text-shadow: rgba(255, 251, 251, 0.23) 2px 2px 4px !important;
+}
 .weather_info .container {
   border-radius: 2% !important;
   background-color: #d7d2c9, #222222;
@@ -64,7 +67,7 @@ h5 {
   font-size: 27px !important;
 }
 body {
-  background-color: #a3c1ad;
+  background-color: #52616B;
 }
 .weather img {
   border-radius: 15px;
@@ -79,7 +82,7 @@ body {
 }
 .foot {
   font-family: "Whisper", cursive !important;
-  text-shadow: rgba(14, 14, 14, 0.24) 0px 3px 8px;
+  text-shadow: rgba(255, 251, 251, 0.23) 2px 2px 4px !important;
   font-weight: 600;
 }
 .fa-sun {
